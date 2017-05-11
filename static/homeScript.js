@@ -6,10 +6,10 @@ window.onload = function(){
 function checkKeyDeadlines() {
 
     //If changing dates also change in HTML
-    var keyDeadlines = [{event: "Deadline for abstracts", textDate: "30 Mar 2016"},
-        {event: "Notification of acceptance", textDate: "18 Mar 2016"},
-        {event: "Submission of full papers", textDate: "22 Jul 2016"},
-        {event: "Registration closes", textDate: "22 Aug 2016"}];
+    var keyDeadlines = [{event: "Deadline for abstracts", textDate: "09 Apr 2018"},
+        {event: "Notification of acceptance", textDate: "12 May 2018"},
+        {event: "Submission of full papers", textDate: "03 Aug 2018"},
+        {event: "Registration closes", textDate: "31 Aug 2018"}];
     var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     var currentDate = new Date();
     var day = currentDate.getDate();
