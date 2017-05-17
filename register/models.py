@@ -30,9 +30,9 @@ class User(models.Model):
                        ["Paying Student Fee", str(self.fee_student)],
                        ]
 
-        email_client(self, "CORE 2016 Conference Registration", "You are officially registered for CORE 2016")
-        email_admin(self, "New CORE 2016 Registrant", "Please find enclosed the details for the new CORE "
-                                                      "2016 registrant.", sorted_self)
+        email_client(self, "CORE 2018 Conference Registration", "You are officially registered for CORE 2018")
+        email_admin(self, "New CORE 2018 Registrant", "Please find enclosed the details for the new CORE "
+                                                      "2018 registrant.", sorted_self)
 
         super(User, self).save(*args, **kwargs)
 
